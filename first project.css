@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Global Elements */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* عنصر الاب الذى يحتوى على السكشنين */
+.parentarticle {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.article-left {
+  /* border: #e63946 solid 3px; */
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  font-family: "El Messiri", sans-serif;
+  min-height: 500px;
+  transition: all 2s;
+  box-shadow: -5px 5px 20px 1px rgb(0 0 0 / 50%);
+}
+
+h1{
+    font-family: "El Messiri", sans-serif;
+padding: 10px;
+border-radius:10px 100px 10px 100px ;
+margin: 20px;
+text-align: center;
+font-size: 50px;
+color: #fff;
+background-color:#e63946;
+}
+
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 120px;
+  background-color: #e63946;
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.discriptin {
+  font-family: "Amaranth", sans-serif;
+ font-size: 20px;
+  transition: 1s;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.soc{
+    text-decoration: none;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.fac{
+    background-color: #023e8a;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.6s;
+    margin-left: 200px;
+}
+
+.ins{
+    color: #fff;
+    background-color: #c1121f;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.6s;
+  
+}
+
+.fac:hover,.ins:hover {
+    font-size: 20px;
+}
+
+
+.article-right{
+    /* border: #023e8a solid 3px; */
+margin-top: 100px;
+box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 50%);
+width: 90%;
+margin-right: 20px;
+margin-left: 20px   ;
+
+min-height: 500px;
+margin-bottom: 100px;
+border-radius: 10px;
+}
+
+
+
+
+
+.name{
+    font-family: 'Zeyada', cursive;
+text-align: center;    
+font-size: 30px;
+}
+
+
+
+
+
+img {
+    margin-top: 30px;
+  display: block;
+  border-radius: 50%;
+  width: 210px;
+  border-top: #48cae4 solid 3px;
+  border-right: #e63946 solid 3px;
+  border-bottom: #48cae4 solid 3px;
+  border-left: #e63946 solid 3px;
+margin-bottom: 20px;
+  /* height: 200px; */
+  margin-right: auto;
+  margin-left: auto;
+  transition: all 0.5s;
+}
+img:hover{
+  transform:rotate(720deg);
+
+}
+
